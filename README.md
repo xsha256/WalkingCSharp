@@ -8,7 +8,7 @@
 
 1. **Clonar el repositorio**
 
-`https://github.com/DanielRomero29/WalkingCSharp1.git`
+`https://github.com/xsha256/walkingCSharp.git`
 
 2. **Lenguaje de programación utilizado: C# en VSC**
 
@@ -19,6 +19,18 @@ Esto creará la carpeta `bin`, `obj`, `program.cs` donde se escribirá el códig
 4. **Subir versiones del proyecto**
 
 Ejecutar los comandos:
+
+```git add .``` : Añades los archivos
+
+```git commit -m "comentario"```: Confirmas
+
+```git push```: Realizas la subida
+
+```git log --oneline```: El hash del commit
+
+```git tag tag -a <Nombre de Tag> -m "comentario" hash```Crear el tag
+
+```git push --tags``` para subir el tag
 
 ## ¿Qué contiene este repositorio?
 
