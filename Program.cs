@@ -34,10 +34,15 @@ totalGradePoints += course3Credit * course3Grade;
 totalGradePoints += course4Credit * course4Grade;
 totalGradePoints += course5Credit * course5Grade;
 
-Console.WriteLine($"{totalGradePoints} {totalCreditHours}");
+decimal gradePointAverage = (decimal) totalGradePoints/totalCreditHours;
+
+int leadingDigit = (int) gradePointAverage;
+int trailingDigits = (int) (gradePointAverage * 100) - (leadingDigit * 100);
 
 Console.WriteLine($"{course1Name} {course1Grade} {course1Credit}");
 Console.WriteLine($"{course2Name} {course2Grade} {course2Credit}");
 Console.WriteLine($"{course3Name} {course3Grade} {course3Credit}");
 Console.WriteLine($"{course4Name} {course4Grade} {course4Credit}");
 Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
+
+Console.WriteLine($"Final GPA: {leadingDigit}.{trailingDigits}");
