@@ -24,9 +24,11 @@ Ejecutar los comandos:
 
 Este repositorio contiene un proyecto guiado de Microsoft:
 
-> Ejercicio: Cálculo de la suma de las puntuaciones de asignación de cada alumno
+> Ejercicio: Almacenamiento de los valores de calificación numéricos para cada curso
 
-> Ejercicio: Cálculo del promedio de las puntuaciones de los trabajos del alumno
+> Ejercicio: Cálculo de las sumas de horas de créditos y calificaciones
+
+> Ejercicio: Formatear la salida decimal
 
 > Ejercicio: Formatear la salida mediante secuencias de caracteres de escape
 
