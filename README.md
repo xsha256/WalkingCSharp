@@ -24,12 +24,11 @@ Ejecutar los comandos:
 
 Este repositorio contiene un proyecto guiado de Microsoft:
 
-> Ejercicio: Almacenamiento de los valores de calificación numéricos para cada curso
+> Ejercicio: Creación de matrices y bucles foreach
 
-> Ejercicio: Cálculo de las sumas de horas de créditos y calificaciones
+> Ejercicio: Creación de una estructura de bucle anidada para el cálculo de calificaciones de los alumnos
 
-> Ejercicio: Formatear la salida decimal
+> Ejercicio: Implementación de ramas de código mediante instrucciones de selección
 
-> Ejercicio: Formatear la salida mediante secuencias de caracteres de escape
 
 #### P.D.: Cada ejercicio está en un tag.
